@@ -1,17 +1,5 @@
 cat << 'EOF' > pubspec.yaml
 name: flutter_amplify_app
 description: Flutter Web app deployed on AWS Amplify
-publish_to: "none"
-
-version: 1.0.0+1
-
-environment:
-  sdk: ">=3.0.0 <4.0.0"
-
-dependencies:
-  flutter:
-    sdk: flutter
-
-flutter:
-  uses-material-design: true
+...
 EOF
