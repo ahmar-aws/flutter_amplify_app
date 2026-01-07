@@ -1,0 +1,11 @@
+cat << 'EOF' > web/manifest.json
+{
+  "name": "Flutter Amplify App",
+  "short_name": "FlutterApp",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0175C2",
+  "description": "Flutter Web app deployed on AWS Amplify"
+}
+EOF

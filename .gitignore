@@ -1,0 +1,10 @@
+cat << 'EOF' > .gitignore
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+EOF
