@@ -3,7 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - flutter --version
+        - git clone https://github.com/flutter/flutter.git -b stable
+        - export PATH="$PATH:`pwd`/flutter/bin"
+        - flutter doctor
+        - flutter config --enable-web
         - flutter pub get
     build:
       commands:
@@ -15,3 +18,5 @@ frontend:
   cache:
     paths:
       - ~/.pub-cache
+      - flutter
+
